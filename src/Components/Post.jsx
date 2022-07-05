@@ -22,6 +22,11 @@ export function Post() {
         <p><a href="">github.com/gvmertens</a></p>
         <p><a href="">#novoProjeto #reactjs </a></p>
       </div>
+      <form className={styles.commentForm}>
+        <strong>Deixe seu feedback:</strong>
+        <textarea placeholder="Deixe um comentário" />
+        <button type="submit">Comentar</button>
+      </form>
     </article>
   );
 }
